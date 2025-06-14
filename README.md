@@ -18,6 +18,11 @@ This project was run in a docker container using the following command:
 
 `docker run --rm -it -v ${pwd}:/usr/src/myapp -w /usr/src/myapp gcc:latest /bin/bash`
 
+Then you can use the makefile for compiling C code:
+
+- `make threadpool` for the thread pool tester.
+- `make queuetest` for the blocking queue tester.
+
 ### Concepts learned
 
 - Thread pools, blocking queues, and their usage.
