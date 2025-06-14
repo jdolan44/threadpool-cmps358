@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "thread_pool.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "makefile.configureOnOpen": true
+}
